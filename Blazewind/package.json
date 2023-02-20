@@ -1,0 +1,19 @@
+{
+  "name": "blazewind",
+  "version": "1.0.0",
+  "description": "A blazor server side application template with TailwindCSS styling",
+  "main": "postcss.config.js",
+  "scripts": {
+    "buildcss": "postcss wwwroot/css/app.css -o wwwroot/css/app.min.css"
+  },
+  "author": "mrmikearmstrong",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "postcss-cli": "^10.1.0"
+  }
+}
